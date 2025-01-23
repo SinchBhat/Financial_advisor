@@ -1,6 +1,7 @@
 import { Inika } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
+import { ClerkProvider } from "@clerk/nextjs";
 
 const inika=Inika({subsets:["Latin"],weight:["400"]})
 export const metadata = {
